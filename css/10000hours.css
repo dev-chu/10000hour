@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5b2386;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------------ header ------------------------------  */
+.screen-out {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-title {
+  position: absolute;
+  width: 564px;
+}
+
+.header-clock {
+  /* position: absolute; X*/
+  width: 261px;
+  height: 265px;
+  left: 830px;
+  top: 199px;
+}
+
+/* ------------------------------- main -------------------------------  */
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "OTEnjoystoriesBA";
+  color: #f5df4d;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.main-title p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sub-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sub-title p {
+  position: relative;
+  font-weight: 400;
+  font-family: "GmarketSansMedium";
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.quotes {
+  position: absolute;
+  width: 493px;
+  margin-top: -30px;
+}
+
+.sub-title p strong {
+  font-size: 20px;
+  font-family: "GmarketSansBold";
+}
+
+.traning-form-wrapper {
+  font-family: "GmarketSansMedium";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.professor {
+  margin-bottom: 20px;
+}
+
+.traning-form-wrapper .professor,
+.everyday {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.traning-form-wrapper input {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 24px;
+  border-radius: 7px;
+  width: 228px;
+  height: 57px;
+  padding: 0 20px;
+}
+
+.traning-form-wrapper input::placeholder {
+  text-align: center;
+  color: #babcbe;
+  font-size: 24px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.yellow-btn {
+  background-color: #fcee21;
+  color: #5b2386;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 65px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "GmarketSansMedium";
+  border: none;
+}
+
+.traning-form {
+  margin-bottom: 90px;
+}
+
+.click-btn {
+  margin-bottom: 80px;
+}
+
+.click-finger {
+}
+
+.traning-form-wrapper .click-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-long-btn {
+  width: 565px;
+  height: 66px;
+}
+
+.traning-form-wrapper .click-finger {
+  width: 64px;
+  height: 72px;
+  margin-left: 7px;
+}
+
+.gogo {
+  width: 356px;
+  height: 66px;
+  margin-right: 18px;
+}
+
+.share {
+  width: 191px;
+  height: 66px;
+  background-color: #ffffff;
+}
+
+.result1 {
+  margin-bottom: 20px;
+}
+
+.result-wrapper {
+  margin-top: 147px;
+}
+
+.result-wrapper .result-traning .result1,
+.result2 {
+  font-family: "GmarketSansMedium";
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-wrapper .result-traning .result1 strong,
+.result2 strong {
+  font-weight: 700;
+  font-size: 72px;
+  margin: 0 12px;
+}
+
+.result-wrapper .gogo-share-btn {
+  margin-top: 127px;
+  display: flex;
+  justify-content: center;
+}
+
+.result-wrapper .gogo-share-btn .share {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+  color: #5b2386;
+  font-family: "Gmarket Sans";
+  font-weight: 700;
+  font-size: 24px;
+  border: none;
+}
+
+/* ------------------------------- footer -------------------------------  */
+
+.footer {
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* --------------------------------- modal ---------------------------------  */
+
+#modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-wrapper {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.modal-txt h1 {
+  position: absolute;
+  width: 396px;
+  height: 106px;
+  left: 202px;
+  top: 76px;
+  font-family: "OTEnjoystoriesBA";
+  font-size: 96px;
+  line-height: 106px;
+  text-align: center;
+  color: #5b2386;
+}
+
+.modal-txt p {
+  position: absolute;
+  width: 233px;
+  height: 40px;
+  left: 284px;
+  top: 186px;
+  font-family: "OTEnjoystoriesBA";
+  font-size: 36px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  color: #5b2386;
+}
+
+.licat-img {
+  position: absolute;
+  width: 433px;
+  height: 337px;
+  left: 184px;
+  top: 255px;
+}
+
+.end-go {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 24px;
+  padding: 21px 49px;
+  gap: 10px;
+  left: 146px;
+  top: 666px;
+}
